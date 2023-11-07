@@ -96,7 +96,7 @@ int main () {
 }
 
 /*******************************************************************************
-Function:     printTitle
+Function:     displayTitle
 
 Description:  Prints a title such as ***Title***. the character, *,
               will be passed in as will the number of character to
@@ -202,10 +202,11 @@ Description:  appends the elements of sourceArray to the end of the
 							array destinationArray.  If there is not enough space to insert 
               the new values, output an error message and exit the program.
 
-Parameters:   destinationArray - array values are added to
-							sizeDestination  - number of elements in destinationArray
-							sourceArray 		 - array values are copied from
-							sizeSource  		 - number of elements in sourceArray
+Parameters:   destinationArray 	 - array values are added to
+							sizeDestination  	 - number of elements in destinationArray
+							maxDestinationSize - max array size of destination array
+							sourceArray 		 	 - array values are copied from
+							sizeSource  		 	 - number of elements in sourceArray
 
 Returned:     none
 *******************************************************************************/
