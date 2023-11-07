@@ -50,47 +50,47 @@ int main () {
 	displayTitle ("Arrays and Functions", MAIN_TITLE_CHAR, CHARS_TO_PRINT);
 
   // TODO #1: Implement displayArray and uncomment to TODO #2
-	cout << endl << endl;
-	displayTitle (" Printing Array A ", TODO_TITLE_CHAR, CHARS_TO_PRINT);
-	displayArray (arrayA, countA, FIELD_WIDTH);
-	cout << endl << endl;
+	// cout << endl << endl;
+	// displayTitle (" Printing Array A ", TODO_TITLE_CHAR, CHARS_TO_PRINT);
+	// displayArray (arrayA, countA, FIELD_WIDTH);
+	// cout << endl << endl;
 
-	displayTitle (" Printing Array B ", TODO_TITLE_CHAR, CHARS_TO_PRINT);
-	displayArray (arrayB, countB, FIELD_WIDTH);
-	cout << endl << endl;
+	// displayTitle (" Printing Array B ", TODO_TITLE_CHAR, CHARS_TO_PRINT);
+	// displayArray (arrayB, countB, FIELD_WIDTH);
+	// cout << endl << endl;
 
   // TODO #2: Implement sumOfArray and uncomment to TODO #3
-	displayTitle (" Sum Of Array A ", TODO_TITLE_CHAR, CHARS_TO_PRINT);
-	cout << "  " << sumOfArray (arrayA, countA) << endl << endl;
+	// displayTitle (" Sum Of Array A ", TODO_TITLE_CHAR, CHARS_TO_PRINT);
+	// cout << "  " << sumOfArray (arrayA, countA) << endl << endl;
 
-	displayTitle (" Sum Of Array B ", TODO_TITLE_CHAR, CHARS_TO_PRINT);
-	cout << "  " << sumOfArray (arrayB, countB) << endl << endl;
+	// displayTitle (" Sum Of Array B ", TODO_TITLE_CHAR, CHARS_TO_PRINT);
+	// cout << "  " << sumOfArray (arrayB, countB) << endl << endl;
 
   // TODO #3: Implement insertLastArray and uncomment to TODO #4
-	displayTitle (" Array A after adding 6 at the end ", TODO_TITLE_CHAR, 
-								CHARS_TO_PRINT);
-	insertLastArray (arrayA, countA, MAX, 6);
-	displayArray (arrayA, countA, FIELD_WIDTH);
-	cout << endl << endl;
+	// displayTitle (" Array A after adding 6 at the end ", TODO_TITLE_CHAR, 
+	// 							CHARS_TO_PRINT);
+	// insertLastArray (arrayA, countA, MAX, 6);
+	// displayArray (arrayA, countA, FIELD_WIDTH);
+	// cout << endl << endl;
 	
     // TODO #4: Implement insertFirstArray and uncomment to TODO #5
-	displayTitle (" Array B after adding 12 at the front ", TODO_TITLE_CHAR, 
-								CHARS_TO_PRINT);
-	insertFirstArray (arrayB, countB, MAX, 12);
-	displayArray (arrayB, countB, FIELD_WIDTH);
-	cout << endl << endl;
+	// displayTitle (" Array B after adding 12 at the front ", TODO_TITLE_CHAR, 
+	// 							CHARS_TO_PRINT);
+	// insertFirstArray (arrayB, countB, MAX, 12);
+	// displayArray (arrayB, countB, FIELD_WIDTH);
+	// cout << endl << endl;
 
   // TODO #5: Implement reverseArray and uncomment to TODO #6
-	displayTitle (" Array B after reversing ", TODO_TITLE_CHAR, CHARS_TO_PRINT);
-	reverseArray (arrayB, countB);
-	displayArray (arrayB, countB, FIELD_WIDTH);
-	cout << endl << endl;
+	// displayTitle (" Array B after reversing ", TODO_TITLE_CHAR, CHARS_TO_PRINT);
+	// reverseArray (arrayB, countB);
+	// displayArray (arrayB, countB, FIELD_WIDTH);
+	// cout << endl << endl;
 
   // TODO #6: Implement appendArray and uncomment to TODO #2
-	displayTitle (" Append Array B to Array A ", TODO_TITLE_CHAR, CHARS_TO_PRINT);
-	appendArray (arrayA, countA, MAX, arrayB, countB);
-	displayArray (arrayA, countA, FIELD_WIDTH);
-	cout << endl << endl;
+	// displayTitle (" Append Array B to Array A ", TODO_TITLE_CHAR, CHARS_TO_PRINT);
+	// appendArray (arrayA, countA, MAX, arrayB, countB);
+	// displayArray (arrayA, countA, FIELD_WIDTH);
+	// cout << endl << endl;
 
 	return EXIT_SUCCESS;
 }
